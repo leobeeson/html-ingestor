@@ -21,6 +21,7 @@ packages = [
 
 [tool.poetry.dependencies]
 python = "^3.12"
+beautifulsoup4 = "^4.12.3"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.0.0"
@@ -30,6 +31,7 @@ isort = "^5.13.0"
 mypy = "^1.8.0"
 flake8 = "^7.0.0"
 pre-commit = "^3.6.0"
+ipykernel = "^6.29.5"
 
 [build-system]
 requires = ["poetry-core"]
